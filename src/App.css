@@ -1,22 +1,57 @@
+html{
+  background: rgb(51, 94, 9);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: rgb(154, 250, 154);
+  width: 92%;
+  height: 10vh;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+h1{
+  color: rgb(3, 104, 25);
+}
+
+
+
+article,section{
+  padding: 20px;
+  width: 90%;
+  margin: 10px auto;
+  background: rgb(154, 250, 154);
+  border-radius: 10px;
+}
+
+article,section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox{
+  margin-right: 20px;
+}
+
+.todo{
+  font-size: 20px;
+  margin-right:20px;
+  width: 50vw;
+}
+
+.button{
+  background:red;
+  border-radius: 10px;
+}
+
+.SubmitBtn{
+  border-radius: 10px;
+  width: 10vw;
 }
